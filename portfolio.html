@@ -37,10 +37,19 @@
         </nav>
         <ul class="header-info-list list">
           <li class="item">
-            <a class="header-info link" href="maito:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-info link" href="maito:info@devstudio.com">
+              <svg class="header-info-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
           <li class="item">
-            <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="header-tel link" href="tel:+380961111111"
+              ><svg class="header-tel-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -167,29 +176,62 @@
     </main>
     <!--                   FOOTER                             -->
     <footer class="footer">
-      <div class="container footer-container">
-        <a class="footer-logo logo"><span class="logo-accent logo">Web</span>Studio</a>
-        <address class="contacts-address">
-          <ul class="contacts-address-list list">
-            <li class="contacts-item">
-              <a
-                class="contacts-link link"
-                href="https://goo.gl/maps/3nx2QuDcFWaEyub6A"
-                target="_blank"
-                rel="noopener nofollow noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26
-              </a>
-            </li>
-            <li class="contacts-item">
-              <a class="contacts-address link" href="maito:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contacts-item">
-              <a class="contacts-address link" href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+      <div class="footer-container">
+        <div class="container">
+          <section class="footer-logo-container">
+            <a class="footer-logo logo"><span class="logo-accent logo">Web</span>Studio</a>
+            <address class="contacts-address">
+              <ul class="contacts-list list">
+                <li class="contacts-item">
+                  <a
+                    class="contacts-link link"
+                    href="https://goo.gl/maps/3nx2QuDcFWaEyub6A"
+                    target="_blank"
+                    rel="noopener nofollow noreferrer"
+                    >г. Киев, пр-т Леси Украинки, 26
+                  </a>
+                </li>
+                <li class="contacts-item">
+                  <a class="contacts-address link" href="maito:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <a class="contacts-address link" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </section>
+          <section class="footer-soc">
+            <h2 class="footer-invitation">Присоединяйтесь</h2>
+            <ul class="footer-soc-list list">
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link"
+                  ><svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link"
+                  ><svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-facebook-1"></use></svg
+                ></a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link"
+                  ><svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
     </footer>
   </body>
